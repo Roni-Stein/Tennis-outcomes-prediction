@@ -29,8 +29,10 @@ mean((training_predictions[,1]>0.5)==training_data$Outcome)
 
 # use model to predict outcomes of test data
 test_predictions = my_prediction(test_data[,-1],model_output)
+
 # compare predictions to actual outcomes
 mean((test_predictions[,1]>0.5)==test_data$Outcome)
+
 # My model predicted the actual outcome in 75.6% of the cases
 
 # calculate the loglikelihood (the probability of the data given the model)
