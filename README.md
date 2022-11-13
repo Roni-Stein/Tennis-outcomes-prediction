@@ -1,5 +1,6 @@
 # Tennis-scores-prediction
 R project that predicts winning or losing in tennis matches using raw basic data
+
 Given a dataset where each row is a tennis match, containing data of the ranking of each player, points gained so far this season and gambling ratios, the model written in the project predicts which player is most likely to win the match.
 The project has training_data to train on and test_data to test the model performance on new data.
 
