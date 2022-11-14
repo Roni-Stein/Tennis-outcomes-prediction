@@ -1,4 +1,4 @@
-# Tennis-scores-prediction
+# Tennis-outcomes-prediction
 R project of logistic regression with regularization model that predicts winning or losing in tennis matches using raw ATP data.
 
 Given a dataset where each row is a tennis match, containing data of the ranking of each player, points gained so far this season and gambling ratios, the model written in the project predicts which player is most likely to win each match.
